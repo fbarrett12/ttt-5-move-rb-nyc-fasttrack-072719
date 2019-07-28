@@ -12,4 +12,6 @@ def input_to_index(board)
   input = gets.strip
   integer = input.to_i
   index = integer - 1 
-end
+end 
+
+def move(board, input_to_index, value)

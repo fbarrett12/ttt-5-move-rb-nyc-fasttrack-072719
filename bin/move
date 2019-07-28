@@ -12,3 +12,5 @@ puts "Where would you like to go? "
 
 input = gets.strip
 
+move()
+display_board()
